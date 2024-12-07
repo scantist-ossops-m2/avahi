@@ -203,7 +203,7 @@ char *avahi_normalize_name(const char *s, char *ret_s, size_t size) {
         }
         
         if (!empty) {
-            if (size < 2)
+            if (size < 1)
                 return NULL;
             
             *(r++) = '.';
